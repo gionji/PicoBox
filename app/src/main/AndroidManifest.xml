@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.giovanniburresi.picobox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PBMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity01_Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity02_Signin"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity03_GetCloserToTheBox"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity04_SelectContent"
+            android:label="settings">
+        </activity>
+
+        <activity
+            android:name=".Activity05_SelectImages"
+            android:label="upload">
+        </activity>
+
+        <activity
+            android:name=".Activity06_SelectVideos"
+            android:label="upload">
+        </activity>
+
+        <activity
+            android:name=".Activity09_Shake"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity10_Loading"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity11_LoadComplete"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity20_CloserToShow"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity21_SelectContentType"
+            android:label="Malta">
+        </activity>
+
+
+        <activity
+            android:name=".Activity22_ShowContents"
+            android:label="Malta">
+        </activity>
+
+        <activity
+            android:name=".Activity23_SubGrid"
+            android:label="Malta"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Activity_LoginAccess"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+        <activity
+            android:name=".imagegrid.DetailedActivity"
+            android:label="Malta"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+    </application>
+
+</manifest>

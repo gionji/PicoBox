@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.giovanniburresi.picobox.PBMainActivity"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/mappa"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="70dip"
+        android:id="@+id/posto1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ubicacion"
+        android:onClick="posto1"/>
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="70dip"
+        android:id="@+id/posto2"
+        android:src="@drawable/ubicacion"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:onClick="posto2" />
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="70dip"
+        android:id="@+id/posto3"
+        android:src="@drawable/ubicacion"
+        android:layout_marginTop="55dp"
+        android:onClick="posto3"
+        android:layout_below="@+id/posto1"
+        android:layout_toRightOf="@+id/posto2"
+        android:layout_toEndOf="@+id/posto2" />
+
+
+</RelativeLayout>

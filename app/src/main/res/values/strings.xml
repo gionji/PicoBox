@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">PicoBox</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/image01</item>
+        <item>@drawable/image02</item>
+        <item>@drawable/image03</item>
+        <item>@drawable/image04</item>
+        <item>@drawable/image05</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+    </string-array>
+
+    <string-array name="video_ids">
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/video01</item>
+        <item>@drawable/video02</item>
+        <item>@drawable/video03</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+        <item>@drawable/blankcontent</item>
+    </string-array>
+
+
+    <string-array name="image_malta_ids">
+        <item>@drawable/image01</item>
+        <item>@drawable/image02</item>
+        <item>@drawable/image03</item>
+        <item>@drawable/image04</item>
+        <item>@drawable/image05</item>
+    </string-array>
+
+
+    <string-array name="image_malta_ids_posto1">
+        <item>@drawable/image01</item>
+        <item>@drawable/image02</item>
+
+    </string-array>
+
+
+    <string-array name="image_malta_ids_posto2">
+
+        <item>@drawable/image03</item>
+        <item>@drawable/image04</item>
+
+    </string-array>
+
+
+    <string-array name="image_malta_ids_posto3">
+
+        <item>@drawable/image05</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
